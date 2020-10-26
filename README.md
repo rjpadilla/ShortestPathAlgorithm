@@ -20,6 +20,7 @@ In order for the routing program to function correctly, the user must have all t
 The effiency and maintainabilty of this application is met with the use of PEP 8 documentation. Each function definition has an annotation, called type hints, which helps programmers differentiate the return value of the function. The function annotations are placed at the end of the function parameter's parentheses with the expected value that the program author had designed. These function annotations help code maintenance easier to read for a programmer especially if they come from a static-typed language, like Java or C, where return type is declared in the function name.
 
 Another feature of software maintenance in the routing program is the use of Python docstrings. Docstrings is a comment convention style when you add a triple quoted comment in the first line of the function block. These docstring comments will tell the user the purpose of that function. This helps programmers immensely with saving time in reading lines of code and trying to figure out what a particular function does and ins place create an easier time reading the program flow.
+
 ![PEP 8 documentation](https://raw.githubusercontent.com/rjpadilla/ShortestPathApplication/main/screenshots/pep8documentation.jpg "Example of function annotations and docstrings")
 
 ## Technologies used
